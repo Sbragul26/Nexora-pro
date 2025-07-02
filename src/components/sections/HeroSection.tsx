@@ -52,21 +52,19 @@ const HeroSection = () => {
           className="space-y-10"
         >
           {/* Logo Animation */}
-          <motion.div
-            className="flex justify-center mb-8"
-            initial={{ scale: 0, rotate: -180 }}
-            animate={{ scale: 1, rotate: 0 }}
-            transition={{ duration: 1, type: "spring", stiffness: 120 }}
-          >
-            <div className="relative w-24 h-24 bg-gradient-to-r from-accent to-blue-400 rounded-3xl flex items-center justify-center shadow-2xl group">
-              <motion.div
-                className="absolute inset-0 bg-gradient-to-r from-accent/50 to-blue-400/50 rounded-3xl"
-                animate={{ scale: [1, 1.05, 1], opacity: [0.5, 0.8, 0.5] }}
-                transition={{ duration: 3, repeat: Infinity }}
-              />
-              <Zap size={48} className="text-white relative z-10 group-hover:scale-110 transition-transform duration-300" />
-            </div>
-          </motion.div>
+        <motion.div
+          className="flex justify-center mb-10"
+          initial={{ scale: 0, rotate: -180, opacity: 0 }}
+          animate={{ scale: 1, rotate: 0, opacity: 1 }}
+          transition={{ duration: 1.2, type: "spring", stiffness: 150, damping: 10 }}
+        >
+            <motion.img
+              src="/logo.png"
+              alt="Logo"
+              className="relative z-11 w-40 h-40 object-contain"
+            />
+
+        </motion.div>
 
           {/* Main Heading */}
           <motion.h1
