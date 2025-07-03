@@ -53,8 +53,8 @@ const ContactSection = () => {
     {
       icon: MapPin,
       title: "Location",
-      info: "Chennai, Tamil Nadu, India",
-      link: "#"
+      info: "Coimbatore, Tamil Nadu, India",
+      //link: "https://maps.google.com/?q=Coimbatore,Tamil+Nadu,India"
     }
   ];
 
