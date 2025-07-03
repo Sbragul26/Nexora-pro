@@ -9,7 +9,7 @@ const teamMembers = [
     role: "Founder & CEO",
     specialties: ["Digital Marketing", "UI/UX", "Editor", "Graphic Designer"],
     bio: "Visionary leader driving innovative digital solutions.",
-    image: "/public/Team/siddhu.jpeg",
+    image: "/Team/siddhu.jpeg",
     social: {
       linkedin: "#",
       github: "#",
@@ -21,7 +21,7 @@ const teamMembers = [
     role: "Co-Founder",
     specialties: ["Web & App Developer", "Digital Marketing", "UI/UX", "Blockchain Developer"],
     bio: "Tech enthusiast crafting cutting-edge web experiences.",
-    image: "/public/Team/ragul.jpeg",
+    image: "/Team/ragul.jpeg",
     social: {
       linkedin: "https://www.linkedin.com/in/ragulbalajii/",
       github: "https://github.com/Sbragul26",
@@ -33,7 +33,7 @@ const teamMembers = [
     role: "Co-Founder",
     specialties: ["Cyber-Security", "Pentester", "Developer", "Exploiter"],
     bio: "Security expert ensuring robust digital protection.",
-    image: "/public/Team/parithi.jpeg",
+    image: "/Team/parithi.jpeg",
     social: {
       linkedin: "#",
       github: "#",
@@ -45,7 +45,7 @@ const teamMembers = [
     role: "Co-Founder",
     specialties: ["Web & App Developer", "Digital Marketing", "Cyber-Security"],
     bio: "Creative developer building seamless digital solutions.",
-    image: "/public/Team/anish.jpg",
+    image: "/Team/anish.jpg",
     social: {
       linkedin: "#",
       github: "https://github.com/anish-narayan",
@@ -57,7 +57,7 @@ const teamMembers = [
     role: "Co-Founder",
     specialties: ["UI/UX Designer", "Developer"],
     bio: "Design maestro creating intuitive user experiences.",
-    image: "/public/Team/kiru.webp",
+    image: "/Team/kiru.webp",
     social: {
       linkedin: "#",
       github: "#",
